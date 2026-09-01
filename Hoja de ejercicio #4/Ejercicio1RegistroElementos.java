@@ -7,18 +7,18 @@ import java.util.Scanner;
 
 public class Ejercicio1RegistroElementos {
 
-    // Constante según convenciones (MAYÚSCULAS_CON_GUIONES_BAJO)
+    
     private static final String CONDICION_SALIDA = "fin";
 
-    // Atributo en lowerCamelCase
+    
     private List<String> listaElementos;
 
-    // Constructor
+    
     public Ejercicio1RegistroElementos() {
         this.listaElementos = new ArrayList<>();
     }
 
-    // Método en lowerCamelCase para registrar entradas
+    
     public void registrarEntradas() {
         Scanner scanner = new Scanner(System.in);
         String entrada;
@@ -41,7 +41,7 @@ public class Ejercicio1RegistroElementos {
         }
     }
 
-    // Método en lowerCamelCase para mostrar los elementos ingresados
+    
     public void mostrarElementos() {
         System.out.println("\n--- Elementos registrados (" + listaElementos.size() + ") ---");
         if (listaElementos.isEmpty()) {
@@ -53,7 +53,7 @@ public class Ejercicio1RegistroElementos {
         }
     }
 
-    // Método principal de ejecución
+   
     public static void main(String[] args) {
         Ejercicio1RegistroElementos programa = new Ejercicio1RegistroElementos();
         programa.registrarEntradas();
